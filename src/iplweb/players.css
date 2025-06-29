@@ -1,0 +1,185 @@
+.players_container{
+    text-align: center;
+}
+.teamslist_players{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.rightsymb{
+    margin-left: 50px;
+}
+.players_top_bottom_middle{
+    margin-left: 30px;
+}
+
+.list_image_player{
+    height: 90px;
+    width: 90px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: rgb(6, 6, 51);
+    transition: transform 0.5s ease;
+}
+.list_image_player:hover{
+    transform: scale(1.1);
+}
+.winning_years{
+    position: relative;
+    top: -16px;
+    left: -30px;
+    
+   
+}
+.players_top_bottom{
+    display: flex;
+    margin-left: 120px;
+}
+.teamdetails_players{
+    margin-left: 150px;
+}
+.teamdatails_list_players li{
+    list-style: none;
+}
+.officialteamsite{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    padding: 7px 5px 7px 5px;
+    font-weight: bolder;
+    z-index: 999;
+    background-color: rgb(151, 99, 3);
+    color: #fff;
+    width: 90%;
+    transform: skew(-15deg);
+
+
+}
+.officiallogosite{
+    
+}
+
+.list_captain{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.list_venue{
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.listplayers span{
+    margin-left: 20px;
+    color: yellow;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.listplayers{
+    height: 35px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    width: 110%;
+    background-color: #240672;
+}
+.cupsborder{
+    height: 30px;
+    width: 100%;
+    border: 1px solid #fff;
+    position: relative;
+    margin-left: 20px;
+    background-color: rgb(6, 30, 61);
+    top: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+.players_team_logo{
+    height: 120px;
+    width: 120px;
+    margin-top: 40px;
+}
+.teams_logoes_playerstop{
+    background-color: rgb(16, 16, 71);
+}
+
+.teamslist_players li{
+    list-style: none;
+}
+.teambox_playes{
+    height: 60px;
+    width: 60px;
+}
+.players_card{
+    
+}
+
+.players_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    justify-content: center;
+}
+.player_card{
+    background-color: white;
+    height: 230px;
+    width: 180px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+    border: 1px solid rgb(116, 136, 179);
+
+}
+.player_image{
+    height: 150px;
+    width: 200px;
+    position: relative;
+    top: -10px;
+    
+}
+.rolesymbol{
+    position: relative;
+    left: 60px;
+}
+.player_name{
+    font-size: 15px;
+    margin-top: -20px;
+}
+.role{
+    margin-top: -15px;
+    margin-bottom: -5px;
+}
+
+
+
+
+.player_separator {
+    width: 100%; /* Adjust width to fit */
+    border-top: 1px solid black;
+    position: relative;
+    top: -20px;
+    
+    
+}
+.player_details{
+    background-color: #fff;
+    width: 100%;
+    
+}
+

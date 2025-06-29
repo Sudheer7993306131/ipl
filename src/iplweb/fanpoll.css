@@ -1,0 +1,98 @@
+/* 🌟 Main Container */
+.poll-container {
+    width: 85%;
+    margin: 100px auto;
+    padding: 25px;
+    
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+}
+.pollheading {
+    height: 25px;
+    width: 80px;
+    background: linear-gradient(135deg, #ff9800, #ff5722);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    transform: translate(-50%,-50%);
+    margin-bottom: 30px;
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    transform: skew(-15deg);
+    
+}
+.poll-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* 🏆 Individual Poll Card */
+.poll-card {
+    
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(121, 121, 202);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.poll-card:hover {
+    transform: translateY(-5px);
+}
+
+/* 🎯 Poll Question Styling */
+.poll-question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: black;
+}
+
+/* ✅ Button Container */
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* 🎭 Option Button Styling */
+.option-button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #f0f0f0;
+    color: #24246f;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+.option-button:hover {
+    background: #ffcc00;
+    color: #0a0a23;
+    transform: scale(1.05);
+}
+
+/* 🚫 Disable Button After Voting */
+.option-button.disabled {
+    cursor: not-allowed;
+    background: #777;
+    color: #ddd;
+    transform: none;
+}
+
+/* 📱 Mobile Optimization */
+@media screen and (max-width: 768px) {
+    .poll-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}

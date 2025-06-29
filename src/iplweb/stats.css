@@ -1,0 +1,73 @@
+.ipl-stats-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 90px;
+    background-color: #f5f7fa;
+  }
+  
+  .seasons-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .season-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 750px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .season-card:hover{
+    transform: scale(1.05);
+  }
+  
+  .team-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  
+  .team-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: -5px;
+  }
+  
+  .captain-name {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .vs {
+    font-size: 22px;
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
+  .captainimageleft{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+  .captainimageright{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
